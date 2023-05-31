@@ -54,7 +54,7 @@ setuptools.setup(
         'pyglove',
         'sentencepiece',
         'tensorflow-text',
-        'tfds-nightly',
+        'tensorflow-datasets',  # XD: replace 'tfds-nightly' to avoid upgrading to latest tf
         # remove this when sentencepiece_model_pb2 is re-generated in the
         # sentencepiece package.
         'protobuf<=3.20.3',
