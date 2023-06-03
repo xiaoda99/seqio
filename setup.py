@@ -47,17 +47,17 @@ setuptools.setup(
         'absl-py',
         'clu',
         'editdistance',
-        'jax',
-        'jaxlib',
-        'numpy',
+        # 'jax',
+        # 'jaxlib',
+        # 'numpy',
         'packaging',
         'pyglove',
         'sentencepiece',
-        'tensorflow-text',
-        'tensorflow-datasets',  # XD: replace 'tfds-nightly' to avoid upgrading to latest tf
+        # 'tensorflow-text',  # should use same version as tensorflow
+        # 'tfds-nightly',
         # remove this when sentencepiece_model_pb2 is re-generated in the
         # sentencepiece package.
-        'protobuf<=3.20.3',
+        # 'protobuf<=3.20.3',
     ],
     extras_require={
         'gcp': [
